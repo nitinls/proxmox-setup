@@ -25,3 +25,14 @@ To make it permentant:
 
     resize2fs /dev/mapper/pve-root
 
+
+
+## Questions during installation
+
+### Question 1? [y/n]
+
+xxxxxx
+
+### Question 2
+
+yyyyyy
