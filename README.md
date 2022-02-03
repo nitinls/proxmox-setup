@@ -11,15 +11,15 @@ Usefull commadss:
 
 Remove LVM disk , run:
 
-```bash
-Shell 
+to remove LVM Volume
 
 lvremove 
-yes
 
+Type y for yes
+
+to use remainign full disk ( 100% disk space )
 lvresize -l +100%FREE /dev/pve/root
 
+to make it permentant 
 resize2fs /dev/mapper/pve-root
-```
-
 
