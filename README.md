@@ -63,3 +63,8 @@ Endpoint = 54.213.232.25:51820
 AllowedIPs = 10.42.42.0/24
 PersistentKeepalive = 15
 ```
+
+
+## Relevant Articles: 
+- [Proxmox](https://proxmox.com/en/)
+- [Before I do anything on Proxmox, I do this first.](https://www.youtube.com/watch?v=GoZaMgEgrHw)
