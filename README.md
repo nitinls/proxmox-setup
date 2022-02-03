@@ -36,3 +36,30 @@ xxxxxx
 ### Question 2
 
 yyyyyy
+
+
+
+## Need to work up ...
+
+## More advanced topics
+
+### gggggg
+
+To add new clients later, run the command that you copied at the end of installation, incrementing the last number (`7`, in this case) by one each time you run it:
+
+    ggg
+    
+You'll find the new client conf file created in the `clients` directory. You can either send the file, or use `cat` to display its contents and copy that. e.g.
+
+```bash
+$ cat clients/7.conf
+
+[Interface]
+PrivateKey = +NrpspR++zR509u71WEPKpqoOw5+1p5z8HpS4Vyrw2k=
+Address = 10.42.42.7/24
+[Peer]
+PublicKey = VwSJ06TopxpF2Dvlj4ZUDUqwVeHuwZpLDQSvvJtCo3s=
+Endpoint = 54.213.232.25:51820
+AllowedIPs = 10.42.42.0/24
+PersistentKeepalive = 15
+```
