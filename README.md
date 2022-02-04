@@ -29,9 +29,9 @@ To make it permentant:
 
 ## Questions during installation
 
-### Question 1? [y/n]
+### Wher to see the upload iso ? [y/n]
 
-xxxxxx
+    /var/lib/vz/template/iso
 
 ### Question 2
 
@@ -64,7 +64,8 @@ AllowedIPs = 10.42.42.0/24
 PersistentKeepalive = 15
 ```
 
-
+ 
+ 
 ## Relevant Articles: 
 - [Proxmox](https://proxmox.com/en/)
 - [Before I do anything on Proxmox, I do this first.](https://www.youtube.com/watch?v=GoZaMgEgrHw)
