@@ -82,6 +82,18 @@ apt install -y cloud-init cloud-initramfs-growroot qemu-guest-agent sudo git cur
 #Optional
 apt install -y fish figlet tmux mlocate fonts-powerline resolvconf htop iftop bmon net-tools dnsutils gnupg2 ntpdate
 
+
+
+()
+Establishing API connection with host '192.168.0.200'
+Login succeeded.
+check cluster join API version
+No cluster network links passed explicitly, fallback to local node IP '192.168.0.137'
+Request addition of this node
+Join request OK, finishing setup locally
+stopping pve-cluster service
+
+
  
 ## Relevant Articles: 
 - [Proxmox](https://proxmox.com/en/)
