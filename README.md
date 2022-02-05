@@ -13,7 +13,7 @@ Remove LVM disk , run:
 
 To remove LVM Volume:
 
-    lvremove 
+    lvremove /dev/pve/data 
 
     Type y for yes
 
