@@ -83,6 +83,9 @@ apt install -y cloud-init cloud-initramfs-growroot qemu-guest-agent sudo git cur
 apt install -y fish figlet tmux mlocate fonts-powerline resolvconf htop iftop bmon net-tools dnsutils gnupg2 ntpdate
 
 
+## Qemu Guest 
+https://pve.proxmox.com/wiki/Qemu-guest-agent
+
 
 ()
 Establishing API connection with host '192.168.0.200'
