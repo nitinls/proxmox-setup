@@ -96,6 +96,8 @@ Request addition of this node
 Join request OK, finishing setup locally
 stopping pve-cluster service
 
+# Nexus
+https://securitywing.com/setup-a-nexus3-repository-using-docker-on-virtual-box/
 
  
 ## Relevant Articles: 
