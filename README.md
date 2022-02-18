@@ -99,6 +99,36 @@ stopping pve-cluster service
 # Nexus
 https://securitywing.com/setup-a-nexus3-repository-using-docker-on-virtual-box/
 
+## proxmox CPU plugin to check temperature
+apt install xsensors
+sensors
+
+https://forum.proxmox.com/threads/temperature.67755/
+
+Bash:
+#! /bin/bash
+
+# ©locknessKo 2022
+
+# Slack incoming webhook URL
+slack_url=https://hooks.slack.com/services/xxx/xxx/xxx
+
+# Threshold for when to send alert
+threshold=80
+
+sensors | grep -e "temp1" | while read line; do
+        temp=$(echo $line | awk -F "+" '{ print $2 }' | awk -F "." '{ print $1 }');
+        if (( temp > $threshold )); then
+                curl -X POST -H 'Content-type: application/json' --data "{'text':'ALERT for $(hostname). Temperature is $temp degrees'}" $slack_url;
+        fi;
+        done
+ 
+ A guide on how to setup slack incoming webhook: https://api.slack.com/messaging/webhooks
+
+How to use cronjobs: https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
+
+Hope this helps!
+-----------------
  
 ## Relevant Articles: 
 - [Proxmox](https://proxmox.com/en/)
