@@ -103,6 +103,8 @@ https://securitywing.com/setup-a-nexus3-repository-using-docker-on-virtual-box/
 apt install xsensors
 sensors
 
+https://www.programmerall.com/article/5981210525/
+
 https://forum.proxmox.com/threads/temperature.67755/
 
 Bash:
